@@ -1,0 +1,7 @@
+virtualenv
+pip install virtualenv
+virtualenv env
+pip install selenium
+pip install pytest
+env\Scripts\activate
+py.test test3.py
